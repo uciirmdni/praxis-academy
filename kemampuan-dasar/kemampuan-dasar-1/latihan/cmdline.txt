@@ -1,0 +1,640 @@
+Directory of C:\Users\Anjelina Sari
+
+09/16/2019  10:47 PM    <DIR>          .
+09/16/2019  10:47 PM    <DIR>          ..
+07/03/2018  11:52 PM    <DIR>          .borland
+07/09/2019  02:21 AM    <DIR>          .jssc
+09/04/2019  08:53 PM    <DIR>          3D Objects
+09/04/2019  08:53 PM    <DIR>          Contacts
+09/21/2019  04:50 AM    <DIR>          Desktop
+10/09/2019  10:30 AM    <DIR>          Documents
+09/22/2019  11:57 AM    <DIR>          Downloads
+09/04/2019  08:53 PM    <DIR>          Favorites
+07/02/2019  01:38 AM    <DIR>          LBP6000
+09/04/2019  08:53 PM    <DIR>          Links
+09/04/2019  08:53 PM    <DIR>          Music
+10/15/2019  12:53 AM    <DIR>          OneDrive
+10/09/2019  08:46 AM    <DIR>          Pictures
+09/04/2019  08:53 PM    <DIR>          Saved Games
+09/04/2019  08:53 PM    <DIR>          Searches
+09/21/2019  10:57 AM    <DIR>          Videos
+               0 File(s)              0 bytes
+              18 Dir(s)  44,464,627,712 bytes free
+
+C:\Users\Anjelina Sari>find/?
+Searches for a text string in a file or files.
+
+FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "string" [[drive:][path]filename[ ...]]
+
+  /V         Displays all lines NOT containing the specified string.
+  /C         Displays only the count of lines containing the string.
+  /N         Displays line numbers with the displayed lines.
+  /I         Ignores the case of characters when searching for the string.
+  /OFF[LINE] Do not skip files with offline attribute set.
+  "string"   Specifies the text string to find.
+  [drive:][path]filename
+             Specifies a file or files to search.
+
+If a path is not specified, FIND searches the text typed at the prompt
+or piped from another command.
+
+C:\Users\Anjelina Sari>hostname
+AnjelinaSari
+
+C:\Users\Anjelina Sari>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used.
+    -S srcaddr     Source address to use.
+    -c compartment Routing compartment identifier.
+    -p             Ping a Hyper-V Network Virtualization provider address.
+    -4             Force using IPv4.
+    -6             Force using IPv6.
+
+C:\Users\Anjelina Sari>set
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Anjelina Sari\AppData\Roaming
+CommonProgramFiles=C:\Program Files\Common Files
+COMPUTERNAME=ANJELINASARI
+ComSpec=C:\WINDOWS\system32\cmd.exe
+DPIAware=0
+DriverData=C:\Windows\System32\Drivers\DriverData
+FP_NO_HOST_CHECK=NO
+HOMEDRIVE=C:
+HOMEPATH=\Users\Anjelina Sari
+LOCALAPPDATA=C:\Users\Anjelina Sari\AppData\Local
+LOGONSERVER=\\ANJELINASARI
+MOZ_PLUGIN_PATH=C:\Program Files\Foxit Software\Foxit Reader\plugins\
+NUMBER_OF_PROCESSORS=2
+OneDrive=C:\Users\Anjelina Sari\OneDrive
+OS=Windows_NT
+Path=C:\Program Files\Borland\Delphi7\Bin;C:\Program Files\Borland\Delphi7\Projects\Bpl\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2014a\runtime\win32;C:\Program Files\MATLAB\R2014a\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\PuTTY\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Users\Anjelina Sari\AppData\Local\Microsoft\WindowsApps;
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=x86
+PROCESSOR_IDENTIFIER=x86 Family 6 Model 76 Stepping 4, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=4c04
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+SESSIONNAME=Console
+SystemDrive=C:
+SystemRoot=C:\WINDOWS
+TEMP=C:\Users\ANJELI~1\AppData\Local\Temp
+TMP=C:\Users\ANJELI~1\AppData\Local\Temp
+USERDOMAIN=AnjelinaSari
+USERDOMAIN_ROAMINGPROFILE=AnjelinaSari
+USERNAME=Anjelina Sari
+USERPROFILE=C:\Users\Anjelina Sari
+VXIPNPPATH=C:\Program Files\IVI Foundation\VISA\
+windir=C:\WINDOWS
+XILINX_FOR_ALTIUM_OVERRIDE=
+
+C:\Users\Anjelina Sari>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+C:\Users\Anjelina Sari>whoami
+anjelinasari\anjelina sari
+
+C:\Users\Anjelina Sari>where
+The syntax of this command is:
+
+WHERE [/R dir] [/Q] [/F] [/T] pattern...
+
+Description:
+    Displays the location of files that match the search pattern.
+    By default, the search is done along the current directory and
+    in the paths specified by the PATH environment variable.
+
+Parameter List:
+    /R       Recursively searches and displays the files that match the
+             given pattern starting from the specified directory.
+
+    /Q       Returns only the exit code, without displaying the list
+             of matched files. (Quiet mode)
+
+    /F       Displays the matched filename in double quotes.
+
+    /T       Displays the file size, last modified date and time for all
+             matched files.
+
+    pattern  Specifies the search pattern for the files to match.
+             Wildcards * and ? can be used in the pattern. The
+             "$env:pattern" and "path:pattern" formats can also be
+             specified, where "env" is an environment variable and
+             the search is done in the specified paths of the "env"
+             environment variable. These formats should not be used
+             with /R. The search is also done by appending the
+             extensions of the PATHEXT variable to the pattern.
+
+     /?      Displays this help message.
+
+  NOTE: The tool returns an error level of 0 if the search is
+        successful, of 1 if the search is unsuccessful and
+        of 2 for failures or errors.
+
+Examples:
+    WHERE /?
+    WHERE myfilename1 myfile????.*
+    WHERE $windir:*.*
+    WHERE /R c:\windows *.exe *.dll *.bat
+    WHERE /Q ??.???
+    WHERE "c:\windows;c:\windows\system32:*.dll"
+    WHERE /F /T *.dll
+
+C:\Users\Anjelina Sari>time /t
+03:34 AM
+
+C:\Users\Anjelina Sari>sort/?
+SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
+  [[drive1:][path1]filename1] [/T [drive2:][path2]]
+  [/O [drive3:][path3]filename3]
+  /+n                         Specifies the character number, n, to
+                              begin each comparison.  /+3 indicates that
+                              each comparison should begin at the 3rd
+                              character in each line.  Lines with fewer
+                              than n characters collate before other lines.
+                              By default comparisons start at the first
+                              character in each line.
+  /L[OCALE] locale            Overrides the system default locale with
+                              the specified one.  The ""C"" locale yields
+                              the fastest collating sequence and is
+                              currently the only alternative.  The sort
+                              is always case insensitive.
+  /M[EMORY] kilobytes         Specifies amount of main memory to use for
+                              the sort, in kilobytes.  The memory size is
+                              always constrained to be a minimum of 160
+                              kilobytes.  If the memory size is specified
+                              the exact amount will be used for the sort,
+                              regardless of how much main memory is
+                              available.
+
+                              The best performance is usually achieved by
+                              not specifying a memory size.  By default the
+                              sort will be done with one pass (no temporary
+                              file) if it fits in the default maximum
+                              memory size, otherwise the sort will be done
+                              in two passes (with the partially sorted data
+                              being stored in a temporary file) such that
+                              the amounts of memory used for both the sort
+                              and merge passes are equal.  The default
+                              maximum memory size is 90% of available main
+                              memory if both the input and output are
+                              files, and 45% of main memory otherwise.
+  /REC[ORD_MAXIMUM] characters Specifies the maximum number of characters
+                              in a record (default 4096, maximum 65535).
+  /R[EVERSE]                  Reverses the sort order; that is,
+                              sorts Z to A, then 9 to 0.
+  [drive1:][path1]filename1   Specifies the file to be sorted.  If not
+                              specified, the standard input is sorted.
+                              Specifying the input file is faster than
+                              redirecting the same file as standard input.
+  /T[EMPORARY]
+    [drive2:][path2]          Specifies the path of the directory to hold
+                              the sort's working storage, in case the data
+                              does not fit in main memory.  The default is
+                              to use the system temporary directory.
+  /O[UTPUT]
+    [drive3:][path3]filename3 Specifies the file where the sorted input is
+                              to be stored.  If not specified, the data is
+                              written to the standard output.   Specifying
+                              the output file is faster than redirecting
+                              standard output to the same file.
+
+C:\Users\Anjelina Sari>set/?
+Displays, sets, or removes cmd.exe environment variables.
+
+SET [variable=[string]]
+
+  variable  Specifies the environment-variable name.
+  string    Specifies a series of characters to assign to the variable.
+
+Type SET without parameters to display the current environment variables.
+
+If Command Extensions are enabled SET changes as follows:
+
+SET command invoked with just a variable name, no equal sign or value
+will display the value of all variables whose prefix matches the name
+given to the SET command.  For example:
+
+    SET P
+
+would display all variables that begin with the letter 'P'
+
+SET command will set the ERRORLEVEL to 1 if the variable name is not
+found in the current environment.
+
+SET command will not allow an equal sign to be part of the name of
+a variable.
+
+Two new switches have been added to the SET command:
+
+    SET /A expression
+Press any key to continue . . .
+
+C:\Users\Anjelina Sari>color blue
+Sets the default console foreground and background colors.
+
+COLOR [attr]
+
+  attr        Specifies color attribute of console output
+
+Color attributes are specified by TWO hex digits -- the first
+corresponds to the background; the second the foreground.  Each digit
+can be any of the following values:
+
+    0 = Black       8 = Gray
+    1 = Blue        9 = Light Blue
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+
+If no argument is given, this command restores the color to what it was
+when CMD.EXE started.  This value either comes from the current console
+window, the /T command line switch or from the DefaultColor registry
+value.
+
+The COLOR command sets ERRORLEVEL to 1 if an attempt is made to execute
+the COLOR command with a foreground and background color that are the
+same.
+
+Press any key to continue . . .
+
+C:\Users\Anjelina Sari>systeminfo
+
+Host Name:                 ANJELINASARI
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.17134 N/A Build 17134
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Anjelina Sari
+Registered Organization:
+Product ID:                00330-80000-00000-AA288
+Original Install Date:     7/13/2018, 4:24:18 PM
+System Boot Time:          10/15/2019, 3:13:19 AM
+System Manufacturer:       LENOVO
+System Model:              80M2
+System Type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x64 Family 6 Model 76 Stepping 4 GenuineIntel ~1601 Mhz
+BIOS Version:              LENOVO C9CN39WW, 1/11/2016
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC-05:00) Eastern Time (US & Canada)
+Total Physical Memory:     1,960 MB
+Available Physical Memory: 729 MB
+Virtual Memory: Max Size:  4,811 MB
+Virtual Memory: Available: 1,671 MB
+Virtual Memory: In Use:    3,140 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\ANJELINASARI
+Hotfix(s):                 11 Hotfix(s) Installed.
+                           [01]: KB4287903
+                           [02]: KB4343669
+                           [03]: KB4346084
+                           [04]: KB4456655
+                           [05]: KB4465663
+                           [06]: KB4477137
+                           [07]: KB4497398
+                           [08]: KB4503308
+                           [09]: KB4509094
+                           [10]: KB4516115
+                           [11]: KB4512501
+Network Card(s):           3 NIC(s) Installed.
+                           [01]: Realtek PCIe GBE Family Controller
+                                 Connection Name: Ethernet
+                                 Status:          Media disconnected
+                           [02]: Qualcomm Atheros QCA61x4 Wireless Network Adapter
+                                 Connection Name: Wi-Fi 2
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     10.4.3.1
+                                 IP address(es)
+                                 [01]: 10.4.3.21
+                                 [02]: fe80::14a4:df21:9ad:652c
+                           [03]: Bluetooth Device (Personal Area Network)
+                                 Connection Name: Bluetooth Network Connection
+                                 Status:          Media disconnected
+Hyper-V Requirements:      VM Monitor Mode Extensions: Yes
+                           Virtualization Enabled In Firmware: Yes
+                           Second Level Address Translation: Yes
+                           Data Execution Prevention Available: Yes
+
+C:\Users\Anjelina Sari>print/?
+Prints a text file.
+
+PRINT [/D:device] [[drive:][path]filename[...]]
+
+   /D:device   Specifies a print device.
+
+C:\Users\Anjelina Sari>cmd
+Microsoft Windows [Version 10.0.17134.950]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Anjelina Sari>convert
+Delphi Form Conversion Utility Version 7.0
+Copyright (c) 1995,2002 Borland Software Corporation
+Usage: convert.exe [-i] [-s] [-t | -b] <filespec(s) | @filelist>
+  -i  Convert files in-place (output overwrites input)
+  -s  Recurse subdirectories
+  -t  Convert to text
+  -b  Convert to binary
+
+C:\Users\Anjelina Sari>echo
+ECHO is on.
+
+C:\Users\Anjelina Sari>expand
+Microsoft (R) File Expansion Utility
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+No files specified.
+
+C:\Users\Anjelina Sari>if/?
+Performs conditional processing in batch programs.
+
+IF [NOT] ERRORLEVEL number command
+IF [NOT] string1==string2 command
+IF [NOT] EXIST filename command
+
+  NOT               Specifies that Windows should carry out
+                    the command only if the condition is false.
+
+  ERRORLEVEL number Specifies a true condition if the last program run
+                    returned an exit code equal to or greater than the number
+                    specified.
+
+  string1==string2  Specifies a true condition if the specified text strings
+                    match.
+
+  EXIST filename    Specifies a true condition if the specified filename
+                    exists.
+
+  command           Specifies the command to carry out if the condition is
+                    met.  Command can be followed by ELSE command which
+                    will execute the command after the ELSE keyword if the
+                    specified condition is FALSE
+
+The ELSE clause must occur on the same line as the command after the IF.  For
+example:
+
+    IF EXIST filename. (
+Press any key to continue . . .
+
+C:\Users\Anjelina Sari>verify
+VERIFY is off.
+
+C:\Users\Anjelina Sari>cd
+C:\Users\Anjelina Sari
+
+C:\Users\Anjelina Sari>d:
+
+D:\>dir
+ Volume in drive D is Anjelina Sari
+ Volume Serial Number is B4CF-9764
+
+ Directory of D:\
+
+06/19/2017  12:35 AM        45,786,728 ChromeStandaloneSetup.exe
+10/01/2019  10:19 AM    <DIR>          Document Anjelina Sari
+09/13/2019  09:11 AM    <DIR>          File musik
+09/29/2019  08:26 AM    <DIR>          Foto
+09/21/2019  11:24 AM    <DIR>          PicsArt
+09/21/2019  11:25 AM    <DIR>          Pictures
+10/12/2019  04:46 AM    <DIR>          Pinterest
+06/04/2019  04:33 AM    <DIR>          Video
+09/21/2019  11:24 AM    <DIR>          WhatsApp
+               1 File(s)     45,786,728 bytes
+               8 Dir(s)   4,827,095,040 bytes free
+
+E:\>cd dokumen/
+E:\Dokumen>dir
+ Volume in drive E is Suci Ramadhani
+ Volume Serial Number is CED5-D003
+
+ Directory of E:\Dokumen
+
+06/27/2019  09:17 AM    <DIR>          .
+06/27/2019  09:17 AM    <DIR>          ..
+07/28/2018  03:43 PM            16,873 440723_Anggaran(1) (Autosaved).xlsx
+07/28/2018  11:12 AM            16,853 440723_Anggaran(1).xlsx
+09/22/2018  10:29 AM    <DIR>          Arduino
+07/13/2018  05:27 PM    <DIR>          Bazaar
+11/20/2018  08:45 PM    <DIR>          CD 1
+11/10/2018  01:05 AM    <DIR>          E-learning
+03/26/2019  12:26 AM    <DIR>          EPROM
+07/18/2019  10:16 PM    <DIR>          Final Mikrokontroler
+01/08/2019  01:36 AM    <DIR>          Gripper
+07/13/2018  02:56 PM    <DIR>          HD
+11/07/2018  07:13 AM    <DIR>          Humanoid
+05/27/2018  04:24 PM    <DIR>          Lampu Taman Otomatis
+07/26/2018  11:50 PM    <DIR>          lfd
+07/25/2018  08:49 PM    <DIR>          Library
+07/06/2018  03:22 AM           706,884 Logo Politeknik Negeri Ujung Pandang.png
+11/23/2018  07:48 PM    <DIR>          LPJ
+07/26/2018  07:51 PM    <DIR>          Matlab
+07/13/2018  02:42 PM    <DIR>          New folder
+07/28/2018  03:35 PM            13,745 Notulensi Rapat(1).docx
+11/07/2018  12:20 PM            38,229 Pra UTS.xlsx
+11/27/2018  09:36 PM    <DIR>          Prak. Sistem Pengaturan 2
+01/15/2019  10:32 AM    <DIR>          Proposal
+11/08/2018  02:14 AM    <DIR>          Sinyal Digital
+05/27/2018  04:24 PM    <DIR>          System Minimum
+06/29/2019  10:25 PM    <DIR>          Tugas Akhir
+07/27/2018  05:41 PM            15,860 untitled.slx
+07/13/2018  01:10 PM    <DIR>          Win 10
+               6 File(s)        808,444 bytes
+              23 Dir(s)  148,350,906,368 bytes free
+
+E:\Dokumen>cd matlab/
+
+E:\Dokumen\Matlab>dir
+ Volume in drive E is Suci Ramadhani
+ Volume Serial Number is CED5-D003
+
+ Directory of E:\Dokumen\Matlab
+
+07/26/2018  07:51 PM    <DIR>          .
+07/26/2018  07:51 PM    <DIR>          ..
+07/06/2018  02:30 AM             6,951 15.jpg
+07/06/2018  02:30 AM            11,681 24.jpg
+07/07/2018  01:12 PM         1,045,611 7.8.2 Perancangan Pengendali PID ZN Tipe 2.pdf
+07/07/2018  01:12 PM            31,534 Experiment_22_1.mdl
+07/07/2018  03:37 PM            31,533 Experiment_22_1.mdl.autosave
+07/07/2018  01:12 PM            38,618 Experiment_22_2.mdl
+07/07/2018  06:00 PM         1,070,407 Laporan.docx
+07/07/2018  12:59 PM         1,385,399 matlab.docx
+07/06/2018  03:30 AM           335,742 matlab.pdf
+               9 File(s)      3,957,476 bytes
+               2 Dir(s)  148,350,906,368 bytes free
+
+E:\Dokumen\Matlab>cd..\..\
+
+E:\>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+E:\>mkdir/?
+Creates a directory.
+
+MKDIR [drive:]path
+MD [drive:]path
+
+If Command Extensions are enabled MKDIR changes as follows:
+
+MKDIR creates any intermediate directories in the path, if needed.
+For example, assume \a does not exist then:
+
+    mkdir \a\b\c\d
+
+is the same as:
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+which is what you would have to type if extensions were disabled.
