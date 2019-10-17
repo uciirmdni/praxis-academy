@@ -383,9 +383,8 @@ To https://github.com/uciirmdni/rhymes.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 
 # STEP 2
-
 Anjelina Sari@AnjelinaSari MINGW32 /e/Bob
-$ git clone https://github.com/uciirmdni/rhymes.git
+$ git clone https://github.com/nrfitriani22/rhymes.git
 Cloning into 'rhymes'...
 remote: Enumerating objects: 22, done.
 remote: Counting objects: 100% (22/22), done.
@@ -399,21 +398,26 @@ $ cd rhymes
 Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (master)
 $ git checkout -b hickory-dickory
 Switched to a new branch 'hickory-dickory'
+D       rhymes-master/hickory-dickory-dock.txt
 
 Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
 $ git add rhymes-master/hickory-dickory-dock.txt
 
 Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
-$ git commit -m 'Added hickory-dickory-dock.txt.'
-On branch hickory-dickory
-nothing to commit, working tree clean
+$ git commit -m 'Added hickory-dickory-dock'
+[hickory-dickory 47b860b] Added hickory-dickory-dock
+ 1 file changed, 5 deletions(-)
+ delete mode 100644 rhymes-master/hickory-dickory-dock.txt
 
 Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
 $ git push origin hickory-dickory
-Total 0 (delta 0), reused 0 (delta 0)
-remote:
-remote: Create a pull request for 'hickory-dickory' on GitHub by visiting:
-remote:      https://github.com/uciirmdni/rhymes/pull/new/hickory-dickory
-remote:
-To https://github.com/uciirmdni/rhymes.git
- * [new branch]      hickory-dickory -> hickory-dickory
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 323 bytes | 64.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/nrfitriani22/rhymes.git
+ ! [remote rejected] hickory-dickory -> hickory-dickory (permission denied)
+error: failed to push some refs to 'https://github.com/nrfitriani22/rhymes.git'
