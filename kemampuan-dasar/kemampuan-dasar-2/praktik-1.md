@@ -1,5 +1,5 @@
 # kemampuan-dasar-2
-#STEP 1
+# STEP 1
 Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2 (master)
 $ mkdir rhymes
 
@@ -381,3 +381,39 @@ remote: Resolving deltas: 100% (2/2), done.
 To https://github.com/uciirmdni/rhymes.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+# STEP 2
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob
+$ git clone https://github.com/uciirmdni/rhymes.git
+Cloning into 'rhymes'...
+remote: Enumerating objects: 22, done.
+remote: Counting objects: 100% (22/22), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 22 (delta 2), reused 22 (delta 2), pack-reused 0
+Unpacking objects: 100% (22/22), done.
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob
+$ cd rhymes
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (master)
+$ git checkout -b hickory-dickory
+Switched to a new branch 'hickory-dickory'
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
+$ git add rhymes-master/hickory-dickory-dock.txt
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
+$ git commit -m 'Added hickory-dickory-dock.txt.'
+On branch hickory-dickory
+nothing to commit, working tree clean
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/Bob/rhymes (hickory-dickory)
+$ git push origin hickory-dickory
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'hickory-dickory' on GitHub by visiting:
+remote:      https://github.com/uciirmdni/rhymes/pull/new/hickory-dickory
+remote:
+To https://github.com/uciirmdni/rhymes.git
+ * [new branch]      hickory-dickory -> hickory-dickory
