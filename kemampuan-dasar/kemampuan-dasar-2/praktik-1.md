@@ -422,3 +422,40 @@ Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/uciirmdni/rhymes.git
    e7483bf..9244a72  hickory-dickory -> hickory-dickory
+
+# STEP 3
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2 (master)
+$ git config --global user.name uciirmdni
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2 (master)
+$ cd rhymes
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git remote rename origin suci
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git remote add bob https://github.com/nrfitriani22/rhy
+mes.git
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git remote
+bob
+suci
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git remote -v
+bob     https://github.com/nrfitriani22/rhymes.git (fetch)
+bob     https://github.com/nrfitriani22/rhymes.git (push)
+suci    https://github.com/uciirmdni/rhymes.git (fetch)
+suci    https://github.com/uciirmdni/rhymes.git (push)
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git fetch bob
+From https://github.com/nrfitriani22/rhymes
+ * [new branch]      hickory-dickory -> bob/hickory-dickory
+
+Anjelina Sari@AnjelinaSari MINGW32 /e/praxis-academy/kemampuan-dasar/kemampuan-dasar-2/rhymes (master)
+$ git branch -a
+* master
+  remotes/bob/hickory-dickory
+  remotes/bob/master
